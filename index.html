@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070b1f">
+<title>Quiz do Milhão — Sistema Urinário</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="beams" aria-hidden="true"><i></i><i></i><i></i></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div id="live" class="sr" aria-live="polite"></div>
+
+<main id="app">
+
+  <!-- MENU -->
+  <section id="screen-menu" class="screen active">
+    <div class="menu">
+      <p class="eyebrow">Fisiologia do Sistema Urinário Humano</p>
+      <h1>QUIZ <span>DO</span> MILHÃO</h1>
+      <p class="lead">16 perguntas. Uma resposta certa. Erre e perde tudo, pare e leve o prêmio.</p>
+      <label class="field">
+        <span>Seu nome</span>
+        <input id="playerName" maxlength="16" placeholder="Ex.: Gelson" autocomplete="nickname">
+      </label>
+      <div class="menu-actions">
+        <button id="btnPlay" class="btn primary big">Jogar</button>
+        <button id="btnRank" class="btn ghost">Ranking</button>
+        <button id="btnHow" class="btn ghost">Como jogar</button>
+      </div>
+      <p class="best" id="bestLine"></p>
+    </div>
+  </section>
+
+  <!-- JOGO -->
+  <section id="screen-game" class="screen">
+    <div class="game">
+      <div class="stage" id="stage">
+        <header class="topbar">
+          <div class="qcount">Pergunta <b id="qnum">1</b>/16</div>
+          <div class="prize-now" id="prizeNow">R$ 1.000</div>
+          <button id="btnMute" class="icon" aria-label="Som" title="Som">🔊</button>
+        </header>
+
+        <div class="timer" role="timer" aria-label="Tempo restante">
+          <div class="timer-bar"><div id="timerBar"></div></div>
+          <span id="timerText">60</span>
+        </div>
+
+        <div class="question-card" id="qcard">
+          <div class="cat" id="qcat"></div>
+          <h2 id="qtext"></h2>
+        </div>
+
+        <div class="options" id="options"></div>
+
+        <div class="actions">
+          <button id="btnConfirm" class="btn primary" disabled>Confirmar <kbd>Enter</kbd></button>
+          <button id="btnStop" class="btn ghost">Parar</button>
+        </div>
+
+        <div class="lifelines" id="lifelines">
+          <button class="ll" data-ll="skip"><span class="ico">⏭</span><span class="lbl">Pular</span><span class="badge" id="skipBadge">3</span></button>
+          <button class="ll" data-ll="uni"><span class="ico">🎓</span><span class="lbl">Universitários</span></button>
+          <button class="ll" data-ll="crowd"><span class="ico">👥</span><span class="lbl">Plateia</span></button>
+          <button class="ll" data-ll="cards"><span class="ico">🃏</span><span class="lbl">Cartas</span></button>
+        </div>
+
+        <div class="stakes" id="stakes"></div>
+      </div>
+
+      <aside class="ladder" aria-label="Escada de prêmios"><ol id="ladder"></ol></aside>
+    </div>
+  </section>
+
+  <!-- FIM -->
+  <section id="screen-end" class="screen">
+    <div class="end">
+      <p class="eyebrow" id="endEyebrow"></p>
+      <h2 id="endTitle"></h2>
+      <div class="end-prize" id="endPrize">R$ 0</div>
+      <p class="end-sub" id="endSub"></p>
+      <dl class="end-stats" id="endStats"></dl>
+      <div class="menu-actions">
+        <button id="btnAgain" class="btn primary big">Jogar de novo</button>
+        <button id="btnEndRank" class="btn ghost">Ver ranking</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- RANKING -->
+  <section id="screen-rank" class="screen">
+    <div class="panel">
+      <h2>Ranking</h2>
+      <p class="muted" id="rankNote"></p>
+      <ol class="rank" id="rankList"></ol>
+      <div class="menu-actions"><button class="btn ghost" data-go="menu">Voltar</button></div>
+    </div>
+  </section>
+
+  <!-- COMO JOGAR -->
+  <section id="screen-how" class="screen">
+    <div class="panel how">
+      <h2>Como jogar</h2>
+      <ul>
+        <li><b>16 perguntas</b> de múltipla escolha, cada uma com <b>uma única</b> resposta correta. O prêmio sobe de R$ 1.000 até R$ 1.000.000.</li>
+        <li>Você tem <b>60 segundos</b> por pergunta. Estourou o tempo, perdeu tudo.</li>
+        <li>Toque numa alternativa para marcar e <b>toque de novo</b> (ou Enter) para travar. Atalhos: <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd>.</li>
+        <li><b>Errou</b>: perde tudo. <b>Parou</b>: leva o valor já conquistado.</li>
+        <li>Só <b>quem para ou chega ao milhão</b> entra no ranking.</li>
+        <li><b>Ajudas</b>: 3 pulos, Universitários, Plateia e Cartas (1 uso cada). O relógio pausa enquanto a ajuda está aberta. Na pergunta final não há ajudas.</li>
+        <li><b>Cartas</b>: Rei elimina 0, Ás elimina 1, 2 elimina 2 e 3 elimina 3 alternativas erradas. Você não sabe qual é qual.</li>
+      </ul>
+      <div class="menu-actions"><button class="btn ghost" data-go="menu">Voltar</button></div>
+    </div>
+  </section>
+</main>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-card" role="dialog" aria-modal="true" id="modalCard"></div>
+</div>
+
+<script src="data/questions.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>

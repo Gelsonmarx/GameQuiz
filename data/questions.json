@@ -1,0 +1,2000 @@
+{
+  "meta": {
+    "tema": "Fisiologia do Sistema Urinário Humano",
+    "idioma": "pt-BR",
+    "versao": "0.1",
+    "referenciasDeConferencia": [
+      "Guyton & Hall – Tratado de Fisiologia Médica (Unidade V: líquidos corporais e rins)",
+      "Costanzo – Fisiologia (seção Fisiologia Renal e Acidobásica)",
+      "Silverthorn – Fisiologia Humana: Uma Abordagem Integrada (capítulos de função renal e equilíbrio hidroeletrolítico/ácido-base)",
+      "Berne & Levy – Fisiologia (seção Renal)"
+    ],
+    "aviso": "Perguntas autorais escritas a partir do conteúdo padrão desses livros; cada item precisa ser conferido na edição adotada (campo 'reviewed')."
+  },
+  "questions": [
+    {
+      "id": "UR-001",
+      "tier": "facil",
+      "category": "Anatomia renal",
+      "text": "Aproximadamente quantos néfrons existem em cada rim humano?",
+      "options": [
+        "Cerca de 10 mil",
+        "Cerca de 1 milhão",
+        "Cerca de 100 milhões",
+        "Cerca de 100 mil"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-002",
+      "tier": "facil",
+      "category": "Anatomia renal",
+      "text": "Qual estrutura conduz a urina de cada rim até a bexiga?",
+      "options": [
+        "Ureter",
+        "Ducto coletor",
+        "Artéria renal",
+        "Uretra"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-003",
+      "tier": "facil",
+      "category": "Anatomia renal",
+      "text": "Qual estrutura conduz a urina da bexiga até o exterior do corpo?",
+      "options": [
+        "Ureter",
+        "Uretra",
+        "Ducto coletor",
+        "Pelve renal"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-004",
+      "tier": "facil",
+      "category": "Excreção",
+      "text": "Qual é o principal produto nitrogenado excretado na urina humana, em maior quantidade?",
+      "options": [
+        "Ácido úrico",
+        "Creatinina",
+        "Ureia",
+        "Amônia"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-005",
+      "tier": "facil",
+      "category": "Anatomia renal",
+      "text": "Em qual região do rim estão localizados os glomérulos?",
+      "options": [
+        "Córtex renal",
+        "Papila renal",
+        "Medula renal",
+        "Pelve renal"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-006",
+      "tier": "facil",
+      "category": "Anatomia renal",
+      "text": "O glomérulo renal é essencialmente:",
+      "options": [
+        "Um segmento do túbulo contorcido distal",
+        "Um ducto que coleta a urina",
+        "Um novelo de capilares sanguíneos",
+        "Um conjunto de vasos linfáticos"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-007",
+      "tier": "facil",
+      "category": "Anatomia renal",
+      "text": "Qual vaso conduz o sangue até o glomérulo?",
+      "options": [
+        "Arteríola aferente",
+        "Arteríola eferente",
+        "Veia renal",
+        "Vasa recta"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-008",
+      "tier": "facil",
+      "category": "Anatomia renal",
+      "text": "Qual vaso leva o sangue para fora do glomérulo?",
+      "options": [
+        "Artéria arqueada",
+        "Arteríola eferente",
+        "Veia cava inferior",
+        "Arteríola aferente"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-009",
+      "tier": "facil",
+      "category": "Anatomia renal",
+      "text": "Como se chama o conjunto formado pelo glomérulo e pela cápsula de Bowman?",
+      "options": [
+        "Corpúsculo renal",
+        "Ducto papilar",
+        "Cálice renal",
+        "Aparelho justaglomerular"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-010",
+      "tier": "facil",
+      "category": "Filtração glomerular",
+      "text": "Qual é o valor aproximado da taxa de filtração glomerular (TFG) de um adulto saudável?",
+      "options": [
+        "1250 mL/min",
+        "12,5 mL/min",
+        "625 mL/min",
+        "125 mL/min"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-011",
+      "tier": "facil",
+      "category": "Filtração glomerular",
+      "text": "Aproximadamente quantos litros de filtrado glomerular são formados por dia?",
+      "options": [
+        "Cerca de 1,8 L",
+        "Cerca de 1800 L",
+        "Cerca de 180 L",
+        "Cerca de 18 L"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-012",
+      "tier": "facil",
+      "category": "Excreção",
+      "text": "Qual é o volume diário típico de urina eliminado por um adulto saudável?",
+      "options": [
+        "Cerca de 180 L",
+        "Cerca de 1 a 2 L",
+        "Cerca de 50 mL",
+        "Cerca de 10 a 15 L"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-013",
+      "tier": "facil",
+      "category": "Micção",
+      "text": "O músculo liso da parede da bexiga que se contrai durante a micção é o:",
+      "options": [
+        "Piriforme",
+        "Cremaster",
+        "Detrusor",
+        "Diafragma"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-014",
+      "tier": "facil",
+      "category": "Micção",
+      "text": "O esfíncter uretral externo é formado por músculo esquelético e, por isso, está sob controle:",
+      "options": [
+        "Voluntário",
+        "Exclusivamente do sistema nervoso entérico",
+        "Exclusivamente involuntário",
+        "Apenas hormonal, sem inervação"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-015",
+      "tier": "facil",
+      "category": "Eletrólitos",
+      "text": "Qual é o principal cátion do líquido extracelular?",
+      "options": [
+        "Sódio (Na⁺)",
+        "Magnésio (Mg²⁺)",
+        "Potássio (K⁺)",
+        "Cálcio (Ca²⁺)"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-016",
+      "tier": "facil",
+      "category": "Eletrólitos",
+      "text": "Qual é o principal cátion do líquido intracelular?",
+      "options": [
+        "Sódio (Na⁺)",
+        "Cálcio (Ca²⁺)",
+        "Hidrogênio (H⁺)",
+        "Potássio (K⁺)"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-017",
+      "tier": "facil",
+      "category": "Hormônios",
+      "text": "Onde o ADH, produzido por neurônios do hipotálamo, é liberado na circulação?",
+      "options": [
+        "Córtex da suprarrenal",
+        "Neuro-hipófise (hipófise posterior)",
+        "Adeno-hipófise",
+        "Glândula tireoide"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-018",
+      "tier": "facil",
+      "category": "Hormônios",
+      "text": "Por que o consumo de álcool tende a aumentar o volume urinário?",
+      "options": [
+        "Interrompe a filtração glomerular",
+        "Inibe a secreção de ADH",
+        "Aumenta a reabsorção de água no ducto coletor",
+        "Aumenta a secreção de aldosterona"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-019",
+      "tier": "facil",
+      "category": "Reabsorção tubular",
+      "text": "Por que, em pessoas saudáveis, praticamente não há glicose na urina?",
+      "options": [
+        "Ela é secretada no ramo ascendente da alça de Henle",
+        "Ela não é filtrada pelo glomérulo",
+        "Ela é quase totalmente reabsorvida no túbulo proximal",
+        "Ela é convertida em ureia pelo néfron"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-020",
+      "tier": "facil",
+      "category": "Ácido-base",
+      "text": "Qual é o pH normal do sangue arterial?",
+      "options": [
+        "Cerca de 6,0",
+        "Cerca de 7,4",
+        "Cerca de 8,5",
+        "Cerca de 5,0"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-021",
+      "tier": "facil",
+      "category": "Ácido-base",
+      "text": "Qual é o principal sistema tampão do líquido extracelular?",
+      "options": [
+        "Sistema fosfato",
+        "Proteínas intracelulares",
+        "Sistema amônia/amônio",
+        "Bicarbonato/ácido carbônico"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-022",
+      "tier": "facil",
+      "category": "Avaliação da função renal",
+      "text": "Qual substância endógena é amplamente usada na prática clínica para estimar a TFG?",
+      "options": [
+        "Creatinina",
+        "Albumina",
+        "Glicose",
+        "Sódio"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-023",
+      "tier": "facil",
+      "category": "Hemodinâmica renal",
+      "text": "Que fração aproximada do débito cardíaco, em repouso, chega aos rins?",
+      "options": [
+        "Cerca de 5%",
+        "Cerca de 60%",
+        "Cerca de 1 a 2%",
+        "Cerca de 20 a 25%"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-024",
+      "tier": "facil",
+      "category": "Excreção",
+      "text": "O que significa o termo poliúria?",
+      "options": [
+        "Presença de sangue na urina",
+        "Aumento anormal do volume de urina",
+        "Ausência de formação de urina",
+        "Dor ao urinar"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-025",
+      "tier": "facil",
+      "category": "Filtração glomerular",
+      "text": "Qual componente do plasma normalmente NÃO é filtrado em quantidade significativa pelo glomérulo?",
+      "options": [
+        "Glicose",
+        "Proteínas plasmáticas de grande tamanho, como a albumina",
+        "Íons sódio",
+        "Ureia"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-026",
+      "tier": "facil",
+      "category": "Equilíbrio hídrico",
+      "text": "Qual é o estímulo mais importante para a sensação de sede?",
+      "options": [
+        "Aumento do volume urinário",
+        "Diminuição da glicemia",
+        "Aumento da osmolaridade plasmática",
+        "Aumento do pH arterial"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-027",
+      "tier": "medio",
+      "category": "Filtração glomerular",
+      "text": "Qual força é a principal promotora da filtração glomerular?",
+      "options": [
+        "Pressão hidrostática na cápsula de Bowman",
+        "Pressão coloidosmótica do plasma",
+        "Pressão hidrostática dos capilares glomerulares",
+        "Pressão osmótica do líquido tubular"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-028",
+      "tier": "medio",
+      "category": "Filtração glomerular",
+      "text": "Qual das alternativas é uma força que se opõe à filtração glomerular?",
+      "options": [
+        "Pressão coloidosmótica das proteínas plasmáticas",
+        "Aumento da permeabilidade da membrana de filtração",
+        "Dilatação da arteríola aferente",
+        "Pressão hidrostática dos capilares glomerulares"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-029",
+      "tier": "medio",
+      "category": "Filtração glomerular",
+      "text": "Em um glomérulo, a pressão hidrostática capilar é 60 mmHg, a pressão hidrostática na cápsula de Bowman é 18 mmHg e a pressão coloidosmótica do plasma é 32 mmHg. Qual é a pressão efetiva de filtração?",
+      "options": [
+        "10 mmHg",
+        "28 mmHg",
+        "110 mmHg",
+        "14 mmHg"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-030",
+      "tier": "medio",
+      "category": "Filtração glomerular",
+      "text": "Quais camadas compõem a barreira de filtração glomerular?",
+      "options": [
+        "Epitélio cúbico, músculo liso e adventícia",
+        "Endotélio fenestrado, membrana basal e podócitos",
+        "Mesotélio, lâmina elástica e células de Schwann",
+        "Endotélio contínuo, pericitos e tecido adiposo"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-031",
+      "tier": "medio",
+      "category": "Filtração glomerular",
+      "text": "A carga elétrica negativa da membrana basal glomerular contribui para:",
+      "options": [
+        "Estimular diretamente a secreção de renina",
+        "Aumentar a filtração de albumina",
+        "Dificultar a filtração de proteínas aniônicas, como a albumina",
+        "Impedir a filtração de íons sódio"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-032",
+      "tier": "medio",
+      "category": "Hemodinâmica renal",
+      "text": "A constrição da arteríola aferente, mantidos os demais fatores, provoca:",
+      "options": [
+        "Aumento da TFG",
+        "Aumento da pressão hidrostática glomerular",
+        "Redução da pressão hidrostática glomerular e da TFG",
+        "Aumento do fluxo plasmático renal"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-033",
+      "tier": "medio",
+      "category": "Hemodinâmica renal",
+      "text": "A constrição moderada da arteríola eferente tende a:",
+      "options": [
+        "Aumentar a pressão hidrostática glomerular e a TFG",
+        "Reduzir o gradiente de filtração",
+        "Reduzir a pressão hidrostática glomerular",
+        "Impedir a formação de filtrado"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-034",
+      "tier": "medio",
+      "category": "Hemodinâmica renal",
+      "text": "A autorregulação mantém o fluxo sanguíneo renal e a TFG relativamente constantes em uma ampla faixa de pressão arterial média, de aproximadamente:",
+      "options": [
+        "200 a 300 mmHg",
+        "20 a 50 mmHg",
+        "80 a 180 mmHg",
+        "300 a 400 mmHg"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-035",
+      "tier": "medio",
+      "category": "Hemodinâmica renal",
+      "text": "Qual estrutura detecta a concentração de NaCl no início do túbulo distal no feedback tubuloglomerular?",
+      "options": [
+        "Cápsula de Bowman",
+        "Mácula densa",
+        "Vasa recta",
+        "Podócitos"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-036",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "Quais células renais secretam renina?",
+      "options": [
+        "Células intercaladas",
+        "Podócitos",
+        "Células mesangiais extraglomerulares",
+        "Células justaglomerulares"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-037",
+      "tier": "medio",
+      "category": "Diuréticos",
+      "text": "Qual transportador do ramo ascendente espesso da alça de Henle é inibido pela furosemida?",
+      "options": [
+        "Cotransportador Na⁺-Cl⁻ (NCC)",
+        "Aquaporina-2",
+        "Cotransportador Na⁺-K⁺-2Cl⁻ (NKCC2)",
+        "Canal epitelial de sódio (ENaC)"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-038",
+      "tier": "medio",
+      "category": "Diuréticos",
+      "text": "Qual segmento do néfron é o principal sítio de ação dos diuréticos tiazídicos?",
+      "options": [
+        "Glomérulo",
+        "Túbulo contorcido distal",
+        "Túbulo contorcido proximal",
+        "Ramo descendente fino da alça de Henle"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-039",
+      "tier": "medio",
+      "category": "Diuréticos",
+      "text": "Qual diurético atua antagonizando o receptor da aldosterona?",
+      "options": [
+        "Manitol",
+        "Hidroclorotiazida",
+        "Espironolactona",
+        "Furosemida"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-040",
+      "tier": "medio",
+      "category": "Diuréticos",
+      "text": "O manitol atua como diurético principalmente por:",
+      "options": [
+        "Inibição da anidrase carbônica",
+        "Antagonismo do receptor de aldosterona",
+        "Diurese osmótica, por ser filtrado e pouco reabsorvido",
+        "Inibição da enzima conversora de angiotensina"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-041",
+      "tier": "medio",
+      "category": "Alça de Henle",
+      "text": "Qual característica descreve o ramo ascendente espesso da alça de Henle?",
+      "options": [
+        "Muito permeável à água",
+        "Impermeável à água e com reabsorção ativa de NaCl",
+        "Principal local de secreção de glicose",
+        "Reabsorve água por aquaporinas dependentes de ADH"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-042",
+      "tier": "medio",
+      "category": "Concentração urinária",
+      "text": "O gradiente osmótico corticomedular é gerado principalmente pelo mecanismo de:",
+      "options": [
+        "Filtração por pressão hidrostática",
+        "Difusão facilitada de glicose",
+        "Multiplicação por contracorrente",
+        "Feedback tubuloglomerular"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-043",
+      "tier": "medio",
+      "category": "Concentração urinária",
+      "text": "Qual é a função dos vasa recta?",
+      "options": [
+        "Armazenar a urina",
+        "Trocar solutos e água por contracorrente, preservando o gradiente medular",
+        "Realizar a filtração do plasma",
+        "Secretar renina"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-044",
+      "tier": "medio",
+      "category": "Concentração urinária",
+      "text": "A osmolaridade máxima do interstício na papila renal humana é de aproximadamente:",
+      "options": [
+        "300 mOsm/L",
+        "3000 mOsm/L",
+        "50 mOsm/L",
+        "1200 mOsm/L"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-045",
+      "tier": "medio",
+      "category": "Concentração urinária",
+      "text": "A osmolaridade plasmática normal é de aproximadamente:",
+      "options": [
+        "29 mOsm/L",
+        "1200 mOsm/L",
+        "3000 mOsm/L",
+        "290 mOsm/L"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-046",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "Qual é a ação do ADH nas células principais do ducto coletor?",
+      "options": [
+        "Aumentar a filtração glomerular",
+        "Bloquear a bomba Na⁺/K⁺-ATPase",
+        "Aumentar a secreção de potássio",
+        "Inserir aquaporinas-2 na membrana apical, aumentando a permeabilidade à água"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-047",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "Qual receptor de ADH medeia o efeito antidiurético nos túbulos renais?",
+      "options": [
+        "β1-adrenérgico",
+        "AT1",
+        "V2",
+        "V1"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-048",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "A aldosterona age principalmente em qual parte do néfron?",
+      "options": [
+        "Túbulo distal final e ducto coletor (células principais)",
+        "Glomérulo",
+        "Ramo descendente fino da alça",
+        "Túbulo contorcido proximal"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-049",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "Qual é o efeito da aldosterona sobre o potássio?",
+      "options": [
+        "Bloqueia a Na⁺/K⁺-ATPase",
+        "Aumenta a secreção de K⁺ nas células principais",
+        "Reduz a secreção de K⁺ nas células principais",
+        "Não altera a excreção de K⁺"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-050",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "O aumento da concentração plasmática de potássio estimula diretamente a secreção de:",
+      "options": [
+        "Calcitonina",
+        "Eritropoietina",
+        "Aldosterona",
+        "Renina"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-051",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "Em qual órgão é sintetizado principalmente o angiotensinogênio?",
+      "options": [
+        "Pulmão",
+        "Fígado",
+        "Glândula suprarrenal",
+        "Rim"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-052",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "Onde se encontra grande parte da enzima conversora de angiotensina (ECA)?",
+      "options": [
+        "No endotélio dos vasos pulmonares",
+        "Nos podócitos",
+        "Na medula óssea",
+        "Nas células principais do ducto coletor"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-053",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "A angiotensina II tem efeito constritor mais pronunciado sobre:",
+      "options": [
+        "A arteríola aferente",
+        "A veia renal",
+        "O ureter",
+        "A arteríola eferente"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-054",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "Qual é um efeito da angiotensina II?",
+      "options": [
+        "Inibir a secreção de aldosterona",
+        "Reduzir a reabsorção de sódio no túbulo proximal",
+        "Provocar vasodilatação sistêmica",
+        "Estimular a sede e a secreção de ADH"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-055",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "A estimulação simpática estimula a liberação de renina por meio de qual receptor?",
+      "options": [
+        "β1-adrenérgico",
+        "Muscarínico",
+        "Nicotínico",
+        "α1-adrenérgico"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-056",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "Qual hormônio, liberado pelos átrios cardíacos quando distendidos, aumenta a excreção de sódio e água?",
+      "options": [
+        "Eritropoietina",
+        "Hormônio antidiurético",
+        "Peptídeo natriurético atrial (PNA)",
+        "Aldosterona"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-057",
+      "tier": "medio",
+      "category": "Avaliação da função renal",
+      "text": "Por que a inulina é utilizada como padrão-ouro para medir a TFG?",
+      "options": [
+        "É produzida pelo próprio rim",
+        "É livremente filtrada e não é reabsorvida nem secretada",
+        "É secretada ativamente pelos túbulos",
+        "É totalmente reabsorvida no túbulo proximal"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-058",
+      "tier": "medio",
+      "category": "Avaliação da função renal",
+      "text": "O clearance do para-aminohipurato (PAH) é utilizado para estimar:",
+      "options": [
+        "A osmolaridade urinária",
+        "O fluxo plasmático renal efetivo",
+        "A taxa de filtração glomerular",
+        "A pressão coloidosmótica do plasma"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-059",
+      "tier": "medio",
+      "category": "Avaliação da função renal",
+      "text": "Qual expressão representa o clearance de uma substância X?",
+      "options": [
+        "(concentração urinária de X + fluxo urinário) ÷ concentração plasmática de X",
+        "concentração urinária de X ÷ (concentração plasmática de X × fluxo urinário)",
+        "(concentração plasmática de X × fluxo urinário) ÷ concentração urinária de X",
+        "(concentração urinária de X × fluxo urinário) ÷ concentração plasmática de X"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-060",
+      "tier": "medio",
+      "category": "Avaliação da função renal",
+      "text": "Qual é o valor normal aproximado da fração de filtração?",
+      "options": [
+        "Cerca de 0,02 (2%)",
+        "Cerca de 1,0 (100%)",
+        "Cerca de 0,8 (80%)",
+        "Cerca de 0,2 (20%)"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-061",
+      "tier": "medio",
+      "category": "Reabsorção tubular",
+      "text": "Qual é a sequência correta percorrida pelo filtrado no néfron?",
+      "options": [
+        "Cápsula de Bowman → alça de Henle → túbulo proximal → ducto coletor → túbulo distal",
+        "Cápsula de Bowman → túbulo proximal → alça de Henle → túbulo distal → ducto coletor",
+        "Túbulo distal → cápsula de Bowman → alça de Henle → túbulo proximal → ducto coletor",
+        "Alça de Henle → túbulo proximal → cápsula de Bowman → túbulo distal → ducto coletor"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-062",
+      "tier": "medio",
+      "category": "Reabsorção tubular",
+      "text": "Aproximadamente que fração do sódio e da água filtrados é reabsorvida no túbulo proximal?",
+      "options": [
+        "Cerca de 65%",
+        "Cerca de 25%",
+        "Cerca de 5%",
+        "Cerca de 99%"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-063",
+      "tier": "medio",
+      "category": "Ácido-base",
+      "text": "Qual enzima é essencial para a reabsorção do bicarbonato filtrado?",
+      "options": [
+        "Amilase",
+        "Anidrase carbônica",
+        "Renina",
+        "Lipase"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-064",
+      "tier": "medio",
+      "category": "Ácido-base",
+      "text": "Quais são os principais tampões que se combinam com o H⁺ secretado no túbulo coletor?",
+      "options": [
+        "Fosfato e amônia (NH₃ → NH₄⁺)",
+        "Albumina e creatinina",
+        "Ureia e lactato",
+        "Glicose e ureia"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-065",
+      "tier": "medio",
+      "category": "Ácido-base",
+      "text": "Na acidose metabólica, a resposta renal compensatória inclui:",
+      "options": [
+        "Aumento da excreção de H⁺ e da produção de NH₄⁺",
+        "Redução da produção de amônio",
+        "Interrupção da filtração glomerular",
+        "Aumento da excreção de HCO₃⁻"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-066",
+      "tier": "medio",
+      "category": "Ácido-base",
+      "text": "A perda de ácido gástrico (HCl) por vômitos prolongados tende a causar:",
+      "options": [
+        "Alcalose metabólica",
+        "Acidose respiratória",
+        "Alcalose respiratória",
+        "Acidose metabólica"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-067",
+      "tier": "medio",
+      "category": "Ácido-base",
+      "text": "A hiperventilação sustentada tende a causar:",
+      "options": [
+        "Alcalose respiratória",
+        "Acidose respiratória",
+        "Acidose metabólica",
+        "Alcalose metabólica"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-068",
+      "tier": "medio",
+      "category": "Cálcio e fosfato",
+      "text": "O paratormônio (PTH) atua nos rins:",
+      "options": [
+        "Aumentando a reabsorção de Ca²⁺ no túbulo distal e reduzindo a reabsorção de fosfato no proximal",
+        "Reduzindo a reabsorção de Ca²⁺ e aumentando a de fosfato",
+        "Aumentando a excreção de Ca²⁺ e a reabsorção de fosfato",
+        "Aumentando a reabsorção de fosfato e reduzindo a de sódio"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-069",
+      "tier": "medio",
+      "category": "Cálcio e fosfato",
+      "text": "Qual enzima renal converte a 25-hidroxivitamina D em calcitriol?",
+      "options": [
+        "Anidrase carbônica",
+        "1α-hidroxilase",
+        "Renina",
+        "Lipase lipoproteica"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-070",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "Quais células renais produzem a eritropoietina?",
+      "options": [
+        "Células da mácula densa",
+        "Células principais do ducto coletor",
+        "Células intersticiais peritubulares do córtex",
+        "Podócitos"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-071",
+      "tier": "medio",
+      "category": "Micção",
+      "text": "Qual inervação provoca a contração do detrusor durante a micção?",
+      "options": [
+        "Nervo frênico",
+        "Nervos pélvicos parassimpáticos (S2–S4)",
+        "Nervo vago",
+        "Nervos hipogástricos simpáticos (T11–L2)"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-072",
+      "tier": "medio",
+      "category": "Micção",
+      "text": "A capacidade fisiológica da bexiga de um adulto é de aproximadamente:",
+      "options": [
+        "5 a 10 L",
+        "20 a 30 mL",
+        "400 a 500 mL",
+        "2 a 3 L"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-073",
+      "tier": "medio",
+      "category": "Clínica",
+      "text": "Na síndrome nefrótica, o edema decorre principalmente de:",
+      "options": [
+        "Perda urinária de proteínas, com queda da pressão coloidosmótica do plasma",
+        "Excesso de eritropoietina",
+        "Aumento da pressão coloidosmótica do plasma",
+        "Obstrução do ureter"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-074",
+      "tier": "medio",
+      "category": "Clínica",
+      "text": "A poliúria do diabetes mellitus descompensado é causada principalmente por:",
+      "options": [
+        "Ausência de aldosterona",
+        "Aumento da reabsorção de água no ducto coletor",
+        "Diurese osmótica pela glicose não reabsorvida",
+        "Excesso de ADH"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-075",
+      "tier": "medio",
+      "category": "Hemodinâmica renal",
+      "text": "O aumento da pressão arterial leva a qual resposta renal?",
+      "options": [
+        "Interrupção da TFG",
+        "Aumento da excreção de sódio e água (natriurese pressórica)",
+        "Redução da diurese",
+        "Aumento da secreção de renina"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-076",
+      "tier": "medio",
+      "category": "Hormônios",
+      "text": "O ADH é um peptídeo sintetizado em qual estrutura?",
+      "options": [
+        "Medula da suprarrenal",
+        "Núcleos supraóptico e paraventricular do hipotálamo",
+        "Glândula pineal",
+        "Adeno-hipófise"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-077",
+      "tier": "dificil",
+      "category": "Avaliação da função renal",
+      "text": "Um paciente tem creatinina plasmática de 1 mg/dL, creatinina urinária de 100 mg/dL e fluxo urinário de 1 mL/min. Qual é o clearance de creatinina?",
+      "options": [
+        "1000 mL/min",
+        "1 mL/min",
+        "10 mL/min",
+        "100 mL/min"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-078",
+      "tier": "dificil",
+      "category": "Avaliação da função renal",
+      "text": "Uma substância X tem concentração urinária de 30 mg/mL, plasmática de 0,5 mg/mL e fluxo urinário de 2 mL/min. Qual é o seu clearance?",
+      "options": [
+        "120 mL/min",
+        "30 mL/min",
+        "60 mL/min",
+        "240 mL/min"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-079",
+      "tier": "dificil",
+      "category": "Avaliação da função renal",
+      "text": "Se o clearance de uma substância é maior que o da inulina, ela sofre:",
+      "options": [
+        "Apenas filtração glomerular",
+        "Reabsorção tubular líquida",
+        "Armazenamento na bexiga",
+        "Secreção tubular líquida"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-080",
+      "tier": "dificil",
+      "category": "Reabsorção tubular",
+      "text": "O limiar renal da glicose, a partir do qual surge glicosúria, corresponde a uma glicemia de aproximadamente:",
+      "options": [
+        "70 mg/dL",
+        "500 mg/dL",
+        "180 a 200 mg/dL",
+        "1000 mg/dL"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-081",
+      "tier": "dificil",
+      "category": "Reabsorção tubular",
+      "text": "O equilíbrio glomerulotubular refere-se a:",
+      "options": [
+        "Aumento da reabsorção tubular proximal proporcional ao aumento da TFG",
+        "Equilíbrio entre secreção e filtração de potássio",
+        "Aumento da TFG causado pelo ADH",
+        "Reabsorção tubular independente da TFG"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-082",
+      "tier": "dificil",
+      "category": "Reabsorção tubular",
+      "text": "Em relação ao plasma, o líquido tubular ao final do túbulo proximal é:",
+      "options": [
+        "Isento de solutos",
+        "Marcadamente hipotônico",
+        "Marcadamente hipertônico",
+        "Aproximadamente isosmótico"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-083",
+      "tier": "dificil",
+      "category": "Alça de Henle",
+      "text": "Em relação ao plasma, o líquido que chega ao início do túbulo distal é:",
+      "options": [
+        "Livre de eletrólitos",
+        "Hipertônico",
+        "Hipotônico",
+        "Isotônico"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-084",
+      "tier": "dificil",
+      "category": "Concentração urinária",
+      "text": "Na ausência de ADH, a urina formada é:",
+      "options": [
+        "Sem eletrólitos",
+        "Diluída, com osmolaridade que pode chegar a cerca de 50 mOsm/L",
+        "Sempre isosmótica ao plasma",
+        "Concentrada, até 1200 mOsm/L"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-085",
+      "tier": "dificil",
+      "category": "Concentração urinária",
+      "text": "A reciclagem de ureia no interstício medular contribui para:",
+      "options": [
+        "Manter a alta osmolaridade da medula interna",
+        "Reduzir o gradiente osmótico corticomedular",
+        "Estimular a secreção de renina",
+        "Aumentar a filtração glomerular"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-086",
+      "tier": "dificil",
+      "category": "Equilíbrio hídrico",
+      "text": "Além da osmolaridade, qual estímulo aumenta fortemente a secreção de ADH?",
+      "options": [
+        "Aumento da glicemia",
+        "Queda importante do volume ou da pressão arterial, detectada por barorreceptores",
+        "Hipotermia",
+        "Aumento do potássio intracelular"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-087",
+      "tier": "dificil",
+      "category": "Clínica",
+      "text": "A síndrome da secreção inapropriada de ADH (SIADH) leva a:",
+      "options": [
+        "Hipercalemia isolada",
+        "Hipernatremia por perda de água livre",
+        "Poliúria com urina diluída",
+        "Hiponatremia por retenção de água, com urina concentrada"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-088",
+      "tier": "dificil",
+      "category": "Clínica",
+      "text": "No diabetes insípido nefrogênico:",
+      "options": [
+        "Os rins não respondem ao ADH, produzindo grande volume de urina diluída",
+        "A hipófise não produz ADH",
+        "Há obstrução ureteral bilateral",
+        "Há excesso de aldosterona"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-089",
+      "tier": "dificil",
+      "category": "Ácido-base",
+      "text": "As células intercaladas do tipo A secretam H⁺ principalmente por meio de:",
+      "options": [
+        "Aquaporina-2",
+        "Cotransportador Na⁺-K⁺-2Cl⁻",
+        "H⁺-ATPase e H⁺/K⁺-ATPase",
+        "Canal epitelial de sódio (ENaC)"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-090",
+      "tier": "dificil",
+      "category": "Ácido-base",
+      "text": "Qual é a compensação renal da acidose respiratória crônica?",
+      "options": [
+        "Aumento da secreção de H⁺ e da reabsorção/geração de HCO₃⁻",
+        "Redução da secreção de H⁺",
+        "Redução da produção de amônio",
+        "Aumento da excreção de HCO₃⁻"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-091",
+      "tier": "dificil",
+      "category": "Potássio",
+      "text": "Quais fatores aumentam a secreção de K⁺ no túbulo distal e no ducto coletor?",
+      "options": [
+        "Redução do fluxo tubular distal",
+        "Aumento da aldosterona e do fluxo tubular distal",
+        "Bloqueio da Na⁺/K⁺-ATPase basolateral",
+        "Hipocalemia"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-092",
+      "tier": "dificil",
+      "category": "Potássio",
+      "text": "Os diuréticos de alça tendem a causar hipocalemia porque:",
+      "options": [
+        "Reduzem o fluxo tubular distal",
+        "Aumentam o fluxo distal de sódio e a secreção de K⁺",
+        "Aumentam a reabsorção de K⁺ no glomérulo",
+        "Inibem a secreção de aldosterona"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-093",
+      "tier": "dificil",
+      "category": "Diuréticos",
+      "text": "Os diuréticos tiazídicos tendem a:",
+      "options": [
+        "Antagonizar o receptor de aldosterona",
+        "Aumentar a excreção urinária de Ca²⁺",
+        "Bloquear o NKCC2",
+        "Reduzir a excreção urinária de Ca²⁺"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-094",
+      "tier": "dificil",
+      "category": "Hemodinâmica renal",
+      "text": "Os anti-inflamatórios não esteroides (AINEs) podem reduzir a TFG em pacientes hipovolêmicos porque:",
+      "options": [
+        "Dilatam a arteríola eferente",
+        "Reduzem a pressão coloidosmótica",
+        "Estimulam a liberação de ADH",
+        "Bloqueiam a vasodilatação da arteríola aferente mediada por prostaglandinas"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-095",
+      "tier": "dificil",
+      "category": "Hemodinâmica renal",
+      "text": "A obstrução ureteral reduz a TFG principalmente porque:",
+      "options": [
+        "Aumenta a pressão hidrostática na cápsula de Bowman",
+        "Reduz a pressão coloidosmótica do plasma",
+        "Dilata a arteríola aferente",
+        "Reduz a pressão hidrostática na cápsula de Bowman"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-096",
+      "tier": "dificil",
+      "category": "Hemodinâmica renal",
+      "text": "A intensa constrição da arteríola eferente, em vez de aumentar a TFG, pode reduzi-la porque:",
+      "options": [
+        "Reduz a pressão hidrostática na cápsula de Bowman",
+        "O aumento da pressão coloidosmótica nos capilares e a queda do fluxo plasmático diminuem a filtração",
+        "Aumenta a permeabilidade da membrana basal",
+        "Dilata a arteríola aferente"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-097",
+      "tier": "dificil",
+      "category": "Hormônios",
+      "text": "Qual é o efeito do peptídeo natriurético atrial sobre a arteríola aferente e o sistema renina-angiotensina?",
+      "options": [
+        "Dilata a arteríola aferente e inibe a secreção de renina",
+        "Contrai a arteríola eferente e estimula a aldosterona",
+        "Não possui efeito hemodinâmico renal",
+        "Contrai a arteríola aferente e estimula a renina"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-098",
+      "tier": "dificil",
+      "category": "Clínica",
+      "text": "Na doença renal crônica, a redução do calcitriol e a retenção de fosfato levam a:",
+      "options": [
+        "Hipertireoidismo",
+        "Hiperparatireoidismo secundário",
+        "Diabetes insípido",
+        "Hiperaldosteronismo primário"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-099",
+      "tier": "dificil",
+      "category": "Clínica",
+      "text": "Na estenose unilateral da artéria renal (hipertensão renovascular), observa-se:",
+      "options": [
+        "Aumento da renina e da angiotensina II, com hipertensão",
+        "Aumento do ADH e hiposmolaridade",
+        "Queda da aldosterona e hipercalemia",
+        "Queda da renina e hipotensão"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-100",
+      "tier": "dificil",
+      "category": "Hormônios",
+      "text": "A aldosterona aumenta a atividade de quais proteínas nas células principais do ducto coletor?",
+      "options": [
+        "Aquaporina-2 e V2",
+        "ENaC e Na⁺/K⁺-ATPase",
+        "Anidrase carbônica e UT-A1",
+        "NKCC2 e NCC"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "11-15"
+    },
+    {
+      "id": "UR-101",
+      "tier": "milhao",
+      "category": "Clínica",
+      "text": "Um paciente tem osmolaridade plasmática de 260 mOsm/L, osmolaridade urinária de 600 mOsm/L e sódio urinário elevado. Qual o diagnóstico mais compatível?",
+      "options": [
+        "SIADH",
+        "Diabetes insípido nefrogênico",
+        "Diabetes insípido central",
+        "Polidipsia primária"
+      ],
+      "answer": 0,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "16"
+    },
+    {
+      "id": "UR-102",
+      "tier": "milhao",
+      "category": "Hemodinâmica renal",
+      "text": "Na hipovolemia grave, a TFG é preservada principalmente pela combinação de:",
+      "options": [
+        "Vasoconstrição aferente por angiotensina II e vasodilatação eferente por prostaglandinas",
+        "Vasodilatação eferente e redução da pressão sistêmica",
+        "Constrição de ambas as arteríolas por noradrenalina",
+        "Vasodilatação aferente por prostaglandinas e vasoconstrição eferente por angiotensina II"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "16"
+    },
+    {
+      "id": "UR-103",
+      "tier": "milhao",
+      "category": "Ácido-base",
+      "text": "Um paciente apresenta pH 7,25, PCO₂ de 30 mmHg e HCO₃⁻ de 12 mEq/L. Qual é o distúrbio ácido-base?",
+      "options": [
+        "Acidose respiratória aguda",
+        "Alcalose metabólica com compensação respiratória",
+        "Alcalose respiratória crônica",
+        "Acidose metabólica com compensação respiratória"
+      ],
+      "answer": 3,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "16"
+    },
+    {
+      "id": "UR-104",
+      "tier": "milhao",
+      "category": "Hemodinâmica renal",
+      "text": "Em estenose bilateral das artérias renais, os inibidores da ECA podem reduzir a TFG porque:",
+      "options": [
+        "Aumentam a pressão coloidosmótica do plasma",
+        "Eliminam a vasoconstrição eferente mediada pela angiotensina II, que sustentava a pressão de filtração",
+        "Bloqueiam a filtração de albumina",
+        "Contraem a arteríola aferente"
+      ],
+      "answer": 1,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "16"
+    },
+    {
+      "id": "UR-105",
+      "tier": "milhao",
+      "category": "Hormônios",
+      "text": "O 'escape da aldosterona' consiste em:",
+      "options": [
+        "Aumento progressivo e ilimitado da retenção de sódio",
+        "Perda total da resposta tubular à aldosterona",
+        "Retorno da excreção de sódio ao normal, apesar do excesso de aldosterona, por natriurese de pressão e fatores natriuréticos",
+        "Supressão definitiva da secreção de ADH"
+      ],
+      "answer": 2,
+      "origin": "autoral",
+      "reviewed": false,
+      "ladderLevels": "16"
+    },
+    {
+      "id": "UR-106",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Qual é a principal função do sistema renina-angiotensina-aldosterona?",
+      "options": [
+        "Produzir hemácias",
+        "Regular a pressão arterial e o equilíbrio de sódio e água",
+        "Produzir glicose",
+        "Controlar a temperatura corporal"
+      ],
+      "answer": 1,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-107",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "O que estimula a liberação de renina pelos rins?",
+      "options": [
+        "Aumento da glicose sanguínea",
+        "Aumento da temperatura corporal",
+        "Diminuição da pressão arterial",
+        "Aumento da concentração de oxigênio"
+      ],
+      "answer": 2,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-108",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Qual órgão produz a renina?",
+      "options": [
+        "Fígado",
+        "Pâncreas",
+        "Coração",
+        "Rins"
+      ],
+      "answer": 3,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-109",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Qual é a função da renina?",
+      "options": [
+        "Converter angiotensinogênio em angiotensina I",
+        "Transformar angiotensina II em aldosterona",
+        "Produzir hemoglobina",
+        "Estimular diretamente a produção de hemácias"
+      ],
+      "answer": 0,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-110",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Qual enzima transforma angiotensina I em angiotensina II?",
+      "options": [
+        "Amilase",
+        "Renina",
+        "Enzima conversora de angiotensina (ECA)",
+        "Lipase"
+      ],
+      "answer": 2,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-111",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Qual é a principal ação da angiotensina II sobre os vasos sanguíneos?",
+      "options": [
+        "Provocar vasodilatação",
+        "Provocar vasoconstrição",
+        "Diminuir a frequência cardíaca",
+        "Reduzir a pressão arterial"
+      ],
+      "answer": 1,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-112",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Qual hormônio é liberado pelas glândulas suprarrenais em resposta à angiotensina II?",
+      "options": [
+        "Insulina",
+        "Eritropoietina",
+        "Glucagon",
+        "Aldosterona"
+      ],
+      "answer": 3,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-113",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Qual é a função da aldosterona nos rins?",
+      "options": [
+        "Aumentar a reabsorção de sódio e favorecer a eliminação de potássio",
+        "Impedir a reabsorção de água",
+        "Estimular a produção de hemácias",
+        "Diminuir a reabsorção de sódio"
+      ],
+      "answer": 0,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-114",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "O que acontece com a pressão arterial quando o sistema renina-angiotensina-aldosterona é ativado?",
+      "options": [
+        "Diminui obrigatoriamente",
+        "Permanece sempre igual",
+        "Tende a aumentar",
+        "Deixa de ser regulada pelos rins"
+      ],
+      "answer": 2,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-115",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Por que o sistema renina-angiotensina-aldosterona pode ser ativado durante a desidratação?",
+      "options": [
+        "Para aumentar a eliminação de sódio",
+        "Para ajudar a conservar sódio e água e manter a pressão arterial",
+        "Para impedir a produção de urina completamente",
+        "Para aumentar a eliminação de glicose"
+      ],
+      "answer": 1,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-116",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Qual hormônio produzido principalmente pelos rins estimula a produção de glóbulos vermelhos?",
+      "options": [
+        "Insulina",
+        "Aldosterona",
+        "Eritropoietina",
+        "Glucagon"
+      ],
+      "answer": 2,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-117",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Qual é a principal função da eritropoietina?",
+      "options": [
+        "Estimular a produção de hemácias",
+        "Aumentar a eliminação de água",
+        "Produzir plaquetas diretamente",
+        "Controlar a glicemia"
+      ],
+      "answer": 0,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-118",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "O que estimula os rins a aumentarem a produção de eritropoietina?",
+      "options": [
+        "Aumento da glicemia",
+        "Excesso de cálcio no sangue",
+        "Aumento da pressão arterial",
+        "Diminuição da disponibilidade de oxigênio nos tecidos"
+      ],
+      "answer": 3,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-119",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Onde são produzidas as hemácias estimuladas pela eritropoietina?",
+      "options": [
+        "Bexiga urinária",
+        "Medula óssea vermelha",
+        "Fígado, exclusivamente",
+        "Glomérulo renal"
+      ],
+      "answer": 1,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-120",
+      "tier": "medio",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Por que pacientes com doença renal crônica podem desenvolver anemia?",
+      "options": [
+        "Porque os rins produzem mais insulina",
+        "Porque a bexiga deixa de armazenar urina",
+        "Porque os rins podem produzir menos eritropoietina",
+        "Porque a aldosterona destrói as hemácias"
+      ],
+      "answer": 2,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-121",
+      "tier": "facil",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Qual é a principal função das hemácias?",
+      "options": [
+        "Transportar oxigênio para os tecidos",
+        "Produzir urina",
+        "Produzir anticorpos",
+        "Filtrar o sangue"
+      ],
+      "answer": 0,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "1-5"
+    },
+    {
+      "id": "UR-122",
+      "tier": "medio",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Um paciente com insuficiência renal crônica apresenta cansaço, palidez e anemia. Qual hormônio pode estar reduzido?",
+      "options": [
+        "Adrenalina",
+        "Insulina",
+        "Aldosterona",
+        "Eritropoietina"
+      ],
+      "answer": 3,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-123",
+      "tier": "medio",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Um paciente apresenta queda acentuada da pressão arterial. Qual substância os rins liberam para iniciar o sistema renina-angiotensina-aldosterona?",
+      "options": [
+        "Hemoglobina",
+        "Renina",
+        "Eritropoietina",
+        "Insulina"
+      ],
+      "answer": 1,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    },
+    {
+      "id": "UR-124",
+      "tier": "medio",
+      "category": "Sistema renina-angiotensina-aldosterona",
+      "text": "Qual é a relação entre a aldosterona e o volume sanguíneo?",
+      "options": [
+        "A aldosterona destrói as hemácias",
+        "A aldosterona impede a absorção de sódio",
+        "A aldosterona favorece a retenção de sódio e água, contribuindo para aumentar o volume sanguíneo",
+        "A aldosterona elimina toda a água do organismo"
+      ],
+      "answer": 2,
+      "origin": "Questions.md",
+      "reviewed": false,
+      "ladderLevels": "6-10"
+    }
+  ]
+}
